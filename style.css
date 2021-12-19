@@ -1,0 +1,72 @@
+body{
+    background-image: url(https://mocah.org/mocahbig/391500-valorant-game-fracture-background-4k-pc-wallpaper.jpg);
+    background-size:cover;
+    padding: 2%;
+}
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+    background-color: rgba(240, 128, 116, 0.726) ;
+    font-weight: bolder;
+}
+#survey-form{
+    width: 50%;
+    margin: auto;
+    padding: 2%;
+    background: rgba(90, 155, 207, 0.658);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+input{
+    border-radius: 4px;
+    border: solid .5px rgba(90, 155, 207, 0.658);
+    width: 60%;  
+    font-size: 1.05em;
+}
+#survey-form label{
+    margin-right: 50%;
+    color: rgb(75, 73, 73);
+    font-weight: bolder;
+}
+#survey-form #Agent{
+    color: rgb(75, 73, 73);
+    margin-right: 25%;
+}
+#survey-form #dropdown{
+    border-radius: 4px;
+    border: solid .5px rgba(90, 155, 207, 0.658);
+    width: 60%;
+    font-size: 1.05em;
+
+}
+#radio input{
+    
+    color: whitesmoke;
+}
+#radio h4{
+    color: rgb(75, 73, 73);
+    text-align: center; 
+}
+#tiempo{
+    color: rgb(75, 73, 73);
+    text-align: center; 
+}
+#comentarios{
+    color: rgb(75, 73, 73);
+    text-align: center; 
+}
+#comentario{
+    border-radius: 4px;
+    border: solid .5px rgba(90, 155, 207, 0.658);
+}
+#submit{
+    margin: 2%;
+    width: 25%;
+    font-size: 1.05em;
+    border-radius: 4px;
+    border: solid .5px rgba(90, 155, 207, 0.658);
+}
